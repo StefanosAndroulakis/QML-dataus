@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qgis version="2.10.1-Pisa" minimumScale="1e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+  <edittypes>
+    <edittype widgetv2type="TextEdit" name="ROCKTYPE1"/>
+  </edittypes>
+  <renderer-v2 attr="ROCKTYPE1" symbollevels="0" type="RuleRenderer">
+    <rules>
+      <rule symbol="0" filter="ROCKTYPE1 = 'unconsolidated material' or ROCKTYPE1 = 'Unconsolidated deposit'" label="Unconsolidated material"/>
+      <rule symbol="1" filter="ROCKTYPE1 = 'alluvium'" label="Alluvium"/>
+      <rule symbol="2" filter="ROCKTYPE1 = 'silt'" label="Silt"/>
+      <rule symbol="3" filter="ROCKTYPE1 = 'sand'" label="Sand"/>
+      <rule symbol="4" filter="ROCKTYPE1 = 'flood plain'" label="Flood plain"/>
+      <rule symbol="5" filter="ROCKTYPE1 = 'gravel'" label="Gravel"/>
+      <rule symbol="6" filter="ROCKTYPE1 = 'levee'" label="Levee"/>
+      <rule symbol="7" filter="ROCKTYPE1 = 'delta'" label="Delta"/>
+      <rule symbol="8" filter="ROCKTYPE1 = 'alluvial fan'" label="Alluvial fan"/>
+      <rule symbol="9" filter="ROCKTYPE1 = 'alluvial terrace'" label="Alluvial terrace"/>
+      <rule symbol="10" filter="ROCKTYPE1 = 'lake or marine sediment' or ROCKTYPE1 = 'lake or marine deposit (non-glacial)' or ROCKTYPE1 = 'Lake sediments'" label="Lake or marine sediment"/>
+      <rule symbol="11" filter="ROCKTYPE1 = 'playa'" label="Playa"/>
+      <rule symbol="12" filter="ROCKTYPE1 = 'mud flat'" label="Mud flat"/>
+      <rule symbol="13" filter="ROCKTYPE1 = 'beach sand'" label="Beach sand"/>
+      <rule symbol="14" filter="ROCKTYPE1 = 'terrace'" label="Terrace"/>
+      <rule symbol="15" filter="ROCKTYPE1 = 'eolian material' or ROCKTYPE1 = 'eolian'" label="Eolian material"/>
+      <rule symbol="16" filter="ROCKTYPE1 = 'dune sand'" label="Dune sand"/>
+      <rule symbol="17" filter="ROCKTYPE1 = 'sand sheet'" label="Sand sheet"/>
+      <rule symbol="18" filter="ROCKTYPE1 = 'loess'" label="Loess"/>
+      <rule symbol="19" filter="ROCKTYPE1 = 'volcanic ash'" label="Volcanic ash"/>
+      <rule symbol="20" filter="ROCKTYPE1 = 'mass wasting material' or ROCKTYPE1 = 'mass wasting'" label="Mass wasting material"/>
+      <rule symbol="21" filter="ROCKTYPE1 = 'colluvium'" label="Colluvium"/>
+      <rule symbol="22" filter="ROCKTYPE1 = 'mudflow'" label="Mudflow"/>
+      <rule symbol="23" filter="ROCKTYPE1 = 'lahar' or ROCKTYPE1 = 'volcanic mudflows'" label="Lahar"/>
+      <rule symbol="24" filter="ROCKTYPE1 = 'debris flow'" label="Debris flow"/>
+      <rule symbol="25" filter="ROCKTYPE1 = 'landslide'" label="Landslide"/>
+      <rule symbol="26" filter="ROCKTYPE1 = 'talus'" label="Talus"/>
+      <rule symbol="27" filter="ROCKTYPE1 = 'glacial drift' or ROCKTYPE1 = 'Glacial sediment'" label="Glacial drift"/>
+      <rule symbol="28" filter="ROCKTYPE1 = 'till'" label="Till"/>
+      <rule symbol="29" filter="ROCKTYPE1 = 'moraine'" label="Moraine"/>
+      <rule symbol="30" filter="ROCKTYPE1 = 'stratified glacial sediment' or ROCKTYPE1 = 'stratified drift'" label="Stratified glacial sediment"/>
+      <rule symbol="31" filter="ROCKTYPE1 = 'glacial outwash sediment' or ROCKTYPE1 = 'outwash'" label="Glacial outwash sediment"/>
+      <rule symbol="32" filter="ROCKTYPE1 = 'sub/supra-glacial sediment'" label="Sub/supra-glacial sediment"/>
+      <rule symbol="33" filter="ROCKTYPE1 = 'glaciolacustrine sediment' or ROCKTYPE1 = 'glaciolacustrine'" label="Glaciolacustrine sediment"/>
+      <rule symbol="34" filter="ROCKTYPE1 = 'glacial-marine sediment'" label="Glacial-marine sediment"/>
+      <rule symbol="35" filter="ROCKTYPE1 = 'biogenic material' or ROCKTYPE1 = 'biogenic sediment'" label="Biogenic material"/>
+      <rule symbol="36" filter="ROCKTYPE1 = 'peat'" label="Peat"/>
+      <rule symbol="37" filter="ROCKTYPE1 = 'coral'" label="Coral"/>
+      <rule symbol="38" filter="ROCKTYPE1 = 'residuum'" label="Residuum"/>
+      <rule symbol="39" filter="ROCKTYPE1 = 'clay or mud' or ROCKTYPE1 = 'Clay, mud' or ROCKTYPE1 = 'mud'" label="Clay or mud"/>
+      <rule symbol="40" filter="ROCKTYPE1 = 'sedimentary rock'" label="Sedimentary rock"/>
+      <rule symbol="41" filter="ROCKTYPE1 = 'clastic rock' or ROCKTYPE1 = 'clastic' or ROCKTYPE1 = 'Clastic sedimentary rock'" label="Clastic rock"/>
+      <rule symbol="42" filter="ROCKTYPE1 = 'mudstone'" label="Mudstone"/>
+      <rule symbol="43" filter="ROCKTYPE1 = 'claystone'" label="Claystone"/>
+      <rule symbol="44" filter="ROCKTYPE1 = 'bentonite'" label="Bentonite"/>
+      <rule symbol="45" filter="ROCKTYPE1 = 'shale'" label="Shale"/>
+      <rule symbol="46" filter="ROCKTYPE1 = 'black shale'" label="Black shale"/>
+      <rule symbol="47" filter="ROCKTYPE1 = 'oil shale'" label="Oil shale"/>
+      <rule symbol="48" filter="ROCKTYPE1 = 'argillite'" label="Argillite"/>
+      <rule symbol="49" filter="ROCKTYPE1 = 'siltstone'" label="Siltstone"/>
+      <rule symbol="50" filter="ROCKTYPE1 = 'fine-grained mixed clastic rock' or ROCKTYPE1 = 'fine-grained mixed clastic'" label="Fine-grained mixed clastic rock"/>
+      <rule symbol="51" filter="ROCKTYPE1 = 'sandstone' or ROCKTYPE1 = 'quartz sandstone'" label="Sandstone"/>
+      <rule symbol="52" filter="ROCKTYPE1 = 'arenite'" label="Arenite"/>
+      <rule symbol="53" filter="ROCKTYPE1 = 'orthoquartzite'" label="Orthoquartzite"/>
+      <rule symbol="54" filter="ROCKTYPE1 = 'calcarenite'" label="Calcarenite"/>
+      <rule symbol="55" filter="ROCKTYPE1 = 'arkose'" label="Arkose"/>
+      <rule symbol="56" filter="ROCKTYPE1 = 'wacke'" label="Wacke"/>
+      <rule symbol="57" filter="ROCKTYPE1 = 'graywacke' or ROCKTYPE1 = 'graywache'" label="Graywacke"/>
+      <rule symbol="58" filter="ROCKTYPE1 = 'medium-grained mixed clastic rock' or ROCKTYPE1 = 'medium-grained mixed clastic'" label="Medium-grained mixed clastic rock"/>
+      <rule symbol="59" filter="ROCKTYPE1 = 'conglomerate'" label="Conglomerate"/>
+      <rule symbol="60" filter="ROCKTYPE1 = 'sedimentary breccia' or ROCKTYPE1 = 'breccia'" label="Sedimentary breccia"/>
+      <rule symbol="61" filter="ROCKTYPE1 = 'coarse-grained mixed clastic rock' or ROCKTYPE1 = 'coarse-grained mixed clastic'" label="Coarse-grained mixed clastic rock"/>
+      <rule symbol="62" filter="ROCKTYPE1 = 'olistostrome'" label="Olistostrome"/>
+      <rule symbol="63" filter="ROCKTYPE1 = 'mÃ©lange' or ROCKTYPE1 = 'Melange'" label="MÃ©lange"/>
+      <rule symbol="64" filter="ROCKTYPE1 = 'carbonate rock' or ROCKTYPE1 = 'carbonate'" label="Carbonate rock"/>
+      <rule symbol="65" filter="ROCKTYPE1 = 'limestone'" label="Limestone"/>
+      <rule symbol="66" filter="ROCKTYPE1 = 'dolostone' or ROCKTYPE1 = 'dolomite' or ROCKTYPE1 = 'dolostone (dolomite)'" label="Dolostone"/>
+      <rule symbol="67" filter="ROCKTYPE1 = 'mixed carbonate/clastic rock' or ROCKTYPE1 = 'mixed clastic/carbonate'" label="Mixed carbonate/clastic rock"/>
+      <rule symbol="68" filter="ROCKTYPE1 = 'mixed volcanic/clastic rock' or ROCKTYPE1 = 'mixed clastic/volcanic'" label="Mixed volcanic/clastic rock"/>
+      <rule symbol="69" filter="ROCKTYPE1 = 'phosphorite'" label="Phosphorite"/>
+      <rule symbol="70" filter="ROCKTYPE1 = 'chemical sedimentary rock' or ROCKTYPE1 = 'chemical'" label="Chemical sedimentary rock"/>
+      <rule symbol="71" filter="ROCKTYPE1 = 'evaporite' or ROCKTYPE1 = 'gypsum'" label="Evaporite"/>
+      <rule symbol="72" filter="ROCKTYPE1 = 'chert'" label="Chert"/>
+      <rule symbol="73" filter="ROCKTYPE1 = 'novaculite'" label="Novaculite"/>
+      <rule symbol="74" filter="ROCKTYPE1 = 'iron formation'" label="Iron formation"/>
+      <rule symbol="75" filter="ROCKTYPE1 = 'exhalite'" label="Exhalite"/>
+      <rule symbol="76" filter="ROCKTYPE1 = 'coal' or ROCKTYPE1 = 'anthracite' or ROCKTYPE1 = 'bituminous'" label="Coal"/>
+      <rule symbol="77" filter="ROCKTYPE1 = 'mixed coal/clastic rock' or ROCKTYPE1 = 'Mixed clastic/coal'" label="Mixed coal/clastic rock"/>
+      <rule symbol="78" filter="ROCKTYPE1 = 'volcanic rock' or ROCKTYPE1 = 'volcanic rock (aphanitic)'" label="Volcanic rock"/>
+      <rule symbol="79" filter="ROCKTYPE1 = 'glassy volcanic rock'" label="Glassy volcanic rock"/>
+      <rule symbol="80" filter="ROCKTYPE1 = 'obsidian'" label="Obsidian"/>
+      <rule symbol="81" filter="ROCKTYPE1 = 'vitrophyre'" label="Vitrophyre"/>
+      <rule symbol="82" filter="ROCKTYPE1 = 'pumice'" label="Pumice"/>
+      <rule symbol="83" filter="ROCKTYPE1 = 'pyroclastic rock' or ROCKTYPE1 = 'pyroclastic'" label="Pyroclastic rock"/>
+      <rule symbol="84" filter="ROCKTYPE1 = 'tuff' or ROCKTYPE1 = 'cinders'" label="Tuff"/>
+      <rule symbol="85" filter="ROCKTYPE1 = 'welded tuff'" label="welded tuff"/>
+      <rule symbol="86" filter="ROCKTYPE1 = 'ash-flow tuff'" label="Ash-flow tuff"/>
+      <rule symbol="87" filter="ROCKTYPE1 = 'ignimbrite'" label="Ignimbrite"/>
+      <rule symbol="88" filter="ROCKTYPE1 = 'volcanic breccia' or ROCKTYPE1 = 'volcanic breccia (agglomerate)'" label="Volcanic breccia"/>
+      <rule symbol="89" filter="ROCKTYPE1 = 'lava flow'" label="Lava flow"/>
+      <rule symbol="90" filter="ROCKTYPE1 = 'bimodal suite'" label="Bimodal suite"/>
+      <rule symbol="91" filter="ROCKTYPE1 = 'felsic volcanic rock' or ROCKTYPE1 = 'felsic volcanic rock (aphanitic)'" label="Felsic volcanic rock"/>
+      <rule symbol="92" filter="ROCKTYPE1 = 'alkali-feldspar rhyolite' or ROCKTYPE1 = 'alkali rhyolite'" label="Alkali-feldspar rhyolite"/>
+      <rule symbol="93" filter="ROCKTYPE1 = 'rhyolite'" label="Rhyolite"/>
+      <rule symbol="94" filter="ROCKTYPE1 = 'rhyodacite'" label="Rhyodacite"/>
+      <rule symbol="95" filter="ROCKTYPE1 = 'dacite'" label="Dacite"/>
+      <rule symbol="96" filter="ROCKTYPE1 = 'alkali-feldspar trachyte'" label="Alkali-feldspar trachyte"/>
+      <rule symbol="97" filter="ROCKTYPE1 = 'trachyte'" label="Trachyte"/>
+      <rule symbol="98" filter="ROCKTYPE1 = 'quartz latite'" label="Quartz latite"/>
+      <rule symbol="99" filter="ROCKTYPE1 = 'latite'" label="Latite"/>
+      <rule symbol="100" filter="ROCKTYPE1 = 'intermediate volcanic rock'" label="Intermediate volcanic rock"/>
+      <rule symbol="101" filter="ROCKTYPE1 = 'trachyandesite'" label="Trachyandesite"/>
+      <rule symbol="102" filter="ROCKTYPE1 = 'andesite'" label="Andesite"/>
+      <rule symbol="103" filter="ROCKTYPE1 = 'mafic volcanic rock'" label="Mafic volcanic rock"/>
+      <rule symbol="104" filter="ROCKTYPE1 = 'trachybasalt'" label="Trachybasalt"/>
+      <rule symbol="105" filter="ROCKTYPE1 = 'basalt'" label="Basalt"/>
+      <rule symbol="106" filter="ROCKTYPE1 = 'tholeiite' or ROCKTYPE1 = 'basalt (tholeiite)'" label="Tholeiite"/>
+      <rule symbol="107" filter="ROCKTYPE1 = 'hawaiite'" label="Hawaiite"/>
+      <rule symbol="108" filter="ROCKTYPE1 = 'alkaline basalt'" label="Alkaline basalt"/>
+      <rule symbol="109" filter="ROCKTYPE1 = 'alkalic volcanic rock'" label="Alkalic volcanic rock"/>
+      <rule symbol="110" filter="ROCKTYPE1 = 'phonolite'" label="Phonolite"/>
+      <rule symbol="111" filter="ROCKTYPE1 = 'tephrite' or ROCKTYPE1 = 'tephrite (basanite)'" label="Tephrite"/>
+      <rule symbol="112" filter="ROCKTYPE1 = 'ultramafitite' or ROCKTYPE1 = 'ultramafitite (komatiite)'" label="Ultramafitite"/>
+      <rule symbol="113" filter="ROCKTYPE1 = 'volcanic carbonatite'" label="Volcanic carbonatite"/>
+      <rule symbol="114" filter="ROCKTYPE1 = 'plutonic rock' or ROCKTYPE1 = 'mafic rock' or ROCKTYPE1 = 'plutonic rock (phanerit' or ROCKTYPE1 = 'plutonic rock (phaneritic)'" label="Plutonic rock"/>
+      <rule symbol="115" filter="ROCKTYPE1 = 'aplite'" label="Aplite"/>
+      <rule symbol="116" filter="ROCKTYPE1 = 'porphyry'" label="Porphyry"/>
+      <rule symbol="117" filter="ROCKTYPE1 = 'lamprophyre'" label="Lamprophyre"/>
+      <rule symbol="118" filter="ROCKTYPE1 = 'pegmatite'" label="Pegmatite"/>
+      <rule symbol="119" filter="ROCKTYPE1 = 'granitoid'" label="Granitoid"/>
+      <rule symbol="120" filter="ROCKTYPE1 = 'alkali-feldspar granite' or ROCKTYPE1 = 'alkali-granite (alaskite)'" label="Alkali-feldspar granite"/>
+      <rule symbol="121" filter="ROCKTYPE1 = 'quartz monzodiorite'" label="Quartz monzodiorite"/>
+      <rule symbol="122" filter="ROCKTYPE1 = 'monzodiorite'" label="Monzodiorite"/>
+      <rule symbol="123" filter="ROCKTYPE1 = 'quartz diorite'" label="Quartz diorite"/>
+      <rule symbol="124" filter="ROCKTYPE1 = 'diorite'" label="Diorite"/>
+      <rule symbol="125" filter="ROCKTYPE1 = 'diabase'" label="Diabase"/>
+      <rule symbol="126" filter="ROCKTYPE1 = 'granite' or ROCKTYPE1 = 'leucogranite' or ROCKTYPE1 = 'monzogranite'" label="Granite"/>
+      <rule symbol="127" filter="ROCKTYPE1 = 'peraluminous granite'" label="Peraluminous granite"/>
+      <rule symbol="128" filter="ROCKTYPE1 = 'metaluminous granite'" label="Metaluminous granite"/>
+      <rule symbol="129" filter="ROCKTYPE1 = 'subaluminous granite'" label="Subaluminous granite"/>
+      <rule symbol="130" filter="ROCKTYPE1 = 'peralkaline granite'" label="Peralkaline granite"/>
+      <rule symbol="131" filter="ROCKTYPE1 = 'granodiorite'" label="Granodiorite"/>
+      <rule symbol="132" filter="ROCKTYPE1 = 'tonalite'" label="Tonalite"/>
+      <rule symbol="133" filter="ROCKTYPE1 = 'trondhjemite'" label="Trondhjemite"/>
+      <rule symbol="134" filter="ROCKTYPE1 = 'alkali-feldspar syenite' or ROCKTYPE1 = 'alkali syenite'" label="Alkali-feldspar syenite"/>
+      <rule symbol="135" filter="ROCKTYPE1 = 'quartz syenite'" label="Quartz syenite"/>
+      <rule symbol="136" filter="ROCKTYPE1 = 'syenite'" label="Syenite"/>
+      <rule symbol="137" filter="ROCKTYPE1 = 'quartz monzonite'" label="Quartz monzonite"/>
+      <rule symbol="138" filter="ROCKTYPE1 = 'monzonite'" label="Monzonite"/>
+      <rule symbol="139" filter="ROCKTYPE1 = 'gabbroid'" label="Gabbroid"/>
+      <rule symbol="140" filter="ROCKTYPE1 = 'quartz monzogabbro'" label="Quartz monzogabbro"/>
+      <rule symbol="141" filter="ROCKTYPE1 = 'monzogabbro'" label="Monzogabbro"/>
+      <rule symbol="142" filter="ROCKTYPE1 = 'quartz gabbro'" label="Quartz gabbro"/>
+      <rule symbol="143" filter="ROCKTYPE1 = 'gabbro'" label="Gabbro"/>
+      <rule symbol="144" filter="ROCKTYPE1 = 'norite'" label="Norite"/>
+      <rule symbol="145" filter="ROCKTYPE1 = 'troctolite'" label="Troctolite"/>
+      <rule symbol="146" filter="ROCKTYPE1 = 'anorthosite'" label="Anorthosite"/>
+      <rule symbol="147" filter="ROCKTYPE1 = 'alkalic intrusive rock'" label="Alkalic intrusive rock"/>
+      <rule symbol="148" filter="ROCKTYPE1 = 'nepheline syenite'" label="Nepheline syenite"/>
+      <rule symbol="149" filter="ROCKTYPE1 = 'ultramafic intrusive rock' or ROCKTYPE1 = 'ultramafic rock' or ROCKTYPE1 = 'ultramfic intrusive rock'" label="Ultramafic intrusive rock"/>
+      <rule symbol="150" filter="ROCKTYPE1 = 'peridotite'" label="Peridotite"/>
+      <rule symbol="151" filter="ROCKTYPE1 = 'dunite'" label="Dunite"/>
+      <rule symbol="152" filter="ROCKTYPE1 = 'kimberlite'" label="Kimberlite"/>
+      <rule symbol="153" filter="ROCKTYPE1 = 'pyroxenite'" label="Pyroxenite"/>
+      <rule symbol="154" filter="ROCKTYPE1 = 'hornblendite'" label="Hornblendite"/>
+      <rule symbol="155" filter="ROCKTYPE1 = 'intrusive carbonatite'" label="Intrusive carbonatite"/>
+      <rule symbol="156" filter="ROCKTYPE1 = 'metamorphic rock'" label="Metamorphic rock"/>
+      <rule symbol="157" filter="ROCKTYPE1 = 'hornfels'" label="Hornfels"/>
+      <rule symbol="158" filter="ROCKTYPE1 = 'eclogite'" label="Eclogite"/>
+      <rule symbol="159" filter="ROCKTYPE1 = 'greisen'" label="Greisen"/>
+      <rule symbol="160" filter="ROCKTYPE1 = 'skarn' or ROCKTYPE1 = 'skarn (tactite)' or ROCKTYPE1 = 'tactite'" label="Skarn"/>
+      <rule symbol="161" filter="ROCKTYPE1 = 'calc-silicate rock'" label="Calc-silicate rock"/>
+      <rule symbol="162" filter="ROCKTYPE1 = 'serpentinite'" label="Serpentinite"/>
+      <rule symbol="163" filter="ROCKTYPE1 = 'metasedimentary rock'" label="Metasedimentary rock"/>
+      <rule symbol="164" filter="ROCKTYPE1 = 'meta-argillite'" label="Meta-argillite"/>
+      <rule symbol="165" filter="ROCKTYPE1 = 'slate'" label="Slate"/>
+      <rule symbol="166" filter="ROCKTYPE1 = 'quartzite'" label="Quartzite"/>
+      <rule symbol="167" filter="ROCKTYPE1 = 'metaconglomerate' or ROCKTYPE1 = 'meta-conglomerate'" label="Metaconglomerate"/>
+      <rule symbol="168" filter="ROCKTYPE1 = 'marble'" label="Marble"/>
+      <rule symbol="169" filter="ROCKTYPE1 = 'metavolcanic rock'" label="Metavolcanic rock"/>
+      <rule symbol="170" filter="ROCKTYPE1 = 'felsic metavolcanic rock' or ROCKTYPE1 = 'metafelsite' or ROCKTYPE1 = 'metafeslite'" label="Felsic metavolcanic rock"/>
+      <rule symbol="171" filter="ROCKTYPE1 = 'metarhyolite' or ROCKTYPE1 = 'meta-rhyolite'" label="Metarhyolite"/>
+      <rule symbol="172" filter="ROCKTYPE1 = 'keratophyre'" label="Keratophyre"/>
+      <rule symbol="173" filter="ROCKTYPE1 = 'intermediate metavolcanic rock' or ROCKTYPE1 = 'intermediante metavolcanic rock' or ROCKTYPE1 = 'intermediate intrusive rock'" label="Intermediate metavolcanic rock"/>
+      <rule symbol="174" filter="ROCKTYPE1 = 'mafic metavolcanic rock'" label="Mafic metavolcanic rock"/>
+      <rule symbol="175" filter="ROCKTYPE1 = 'metabasalt' or ROCKTYPE1 = 'meta-basalt'" label="Metabasalt"/>
+      <rule symbol="176" filter="ROCKTYPE1 = 'spilite'" label="Spilite"/>
+      <rule symbol="177" filter="ROCKTYPE1 = 'greenstone'" label="Greenstone"/>
+      <rule symbol="178" filter="ROCKTYPE1 = 'phyllite'" label="Phyllite"/>
+      <rule symbol="179" filter="ROCKTYPE1 = 'schist'" label="Schist"/>
+      <rule symbol="180" filter="ROCKTYPE1 = 'greenschist'" label="Greenschist"/>
+      <rule symbol="181" filter="ROCKTYPE1 = 'blueschist'" label="Blueschist"/>
+      <rule symbol="182" filter="ROCKTYPE1 = 'mica schist' or ROCKTYPE1 = 'biotite schist'" label="Mica schist"/>
+      <rule symbol="183" filter="ROCKTYPE1 = 'pelitic schist'" label="Pelitic schist"/>
+      <rule symbol="184" filter="ROCKTYPE1 = 'quartz-feldspar schist' or ROCKTYPE1 = 'quartz-feldspatr schist'" label="Quartz-feldspar schist"/>
+      <rule symbol="185" filter="ROCKTYPE1 = 'calc-silicate schist'" label="Calc-silicate schist"/>
+      <rule symbol="186" filter="ROCKTYPE1 = 'amphibole schist'" label="Amphibole schist"/>
+      <rule symbol="187" filter="ROCKTYPE1 = 'granofels'" label="Granofels"/>
+      <rule symbol="188" filter="ROCKTYPE1 = 'gneiss' or ROCKTYPE1 = 'mica gneiss'" label="Gneiss"/>
+      <rule symbol="189" filter="ROCKTYPE1 = 'felsic gneiss'" label="Felsic gneiss"/>
+      <rule symbol="190" filter="ROCKTYPE1 = 'granitic gneiss'" label="Granitic gneiss"/>
+      <rule symbol="191" filter="ROCKTYPE1 = 'biotite gneiss'" label="Biotite gneiss"/>
+      <rule symbol="192" filter="ROCKTYPE1 = 'mafic gneiss'" label="Mafic gneiss"/>
+      <rule symbol="193" filter="ROCKTYPE1 = 'orthogneiss'" label="Orthogneiss"/>
+      <rule symbol="194" filter="ROCKTYPE1 = 'paragneiss'" label="Paragneiss"/>
+      <rule symbol="195" filter="ROCKTYPE1 = 'migmatite'" label="Migmatite"/>
+      <rule symbol="196" filter="ROCKTYPE1 = 'amphibolite'" label="Amphibolite"/>
+      <rule symbol="197" filter="ROCKTYPE1 = 'granulite'" label="Granulite"/>
+      <rule symbol="198" filter="ROCKTYPE1 = 'tectonite'" label="Tectonite"/>
+      <rule symbol="199" filter="ROCKTYPE1 = 'tectonic mÃ©lange' or ROCKTYPE1 = 'Tectonic melange'" label="Tectonic mÃ©lange"/>
+      <rule symbol="200" filter="ROCKTYPE1 = 'tectonic breccia'" label="Tectonic breccia"/>
+      <rule symbol="201" filter="ROCKTYPE1 = 'cataclasite'" label="Cataclasite"/>
+      <rule symbol="202" filter="ROCKTYPE1 = 'phyllonite'" label="Phyllonite"/>
+      <rule symbol="203" filter="ROCKTYPE1 = 'mylonite'" label="Mylonite"/>
+      <rule symbol="204" filter="ROCKTYPE1 = 'flaser gneiss'" label="Flaser gneiss"/>
+      <rule symbol="205" filter="ROCKTYPE1 = 'augen gneiss'" label="Augen gneiss"/>
+      <rule symbol="206" filter="ROCKTYPE1 = 'ice'" label="ice"/>
+      <rule symbol="207" filter="ROCKTYPE1 = 'water'" label="water"/>
+    </rules>
+    <symbols>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="253,244,63,255"/>
+          <prop k="outline_color" v="253,244,63,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,255,137,255"/>
+          <prop k="outline_color" v="255,255,137,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,211,69,255"/>
+          <prop k="outline_color" v="255,211,69,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,203,35,255"/>
+          <prop k="outline_color" v="255,203,35,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,255,213,255"/>
+          <prop k="outline_color" v="255,255,213,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="236,180,0,255"/>
+          <prop k="outline_color" v="236,180,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,250,233,255"/>
+          <prop k="outline_color" v="255,250,233,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,250,200,255"/>
+          <prop k="outline_color" v="255,250,200,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,255,183,255"/>
+          <prop k="outline_color" v="255,255,183,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="250,238,122,255"/>
+          <prop k="outline_color" v="250,238,122,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="244,239,228,255"/>
+          <prop k="outline_color" v="244,239,228,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="241,229,223,255"/>
+          <prop k="outline_color" v="241,229,223,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="228,208,190,255"/>
+          <prop k="outline_color" v="228,208,190,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="228,216,190,255"/>
+          <prop k="outline_color" v="228,216,190,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,246,217,255"/>
+          <prop k="outline_color" v="255,246,217,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="224,197,158,255"/>
+          <prop k="outline_color" v="224,197,158,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="224,210,180,255"/>
+          <prop k="outline_color" v="224,210,180,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="219,204,169,255"/>
+          <prop k="outline_color" v="219,204,169,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="245,225,189,255"/>
+          <prop k="outline_color" v="245,225,189,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="224,176,158,255"/>
+          <prop k="outline_color" v="224,176,158,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="20">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="207,187,143,255"/>
+          <prop k="outline_color" v="207,187,143,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="21">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="225,227,195,255"/>
+          <prop k="outline_color" v="225,227,195,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="22">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="229,219,179,255"/>
+          <prop k="outline_color" v="229,219,179,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="23">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="220,213,180,255"/>
+          <prop k="outline_color" v="220,213,180,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="24">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="211,202,159,255"/>
+          <prop k="outline_color" v="211,202,159,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="25">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="201,190,137,255"/>
+          <prop k="outline_color" v="201,190,137,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="26">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="188,175,108,255"/>
+          <prop k="outline_color" v="188,175,108,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="27">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="191,167,67,255"/>
+          <prop k="outline_color" v="191,167,67,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="28">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="210,194,124,255"/>
+          <prop k="outline_color" v="210,194,124,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="29">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,238,191,255"/>
+          <prop k="outline_color" v="255,238,191,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="30">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,229,157,255"/>
+          <prop k="outline_color" v="255,229,157,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="31">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,223,133,255"/>
+          <prop k="outline_color" v="255,223,133,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="32">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,230,112,255"/>
+          <prop k="outline_color" v="254,230,112,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="33">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,226,88,255"/>
+          <prop k="outline_color" v="254,226,88,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="34">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,219,46,255"/>
+          <prop k="outline_color" v="254,219,46,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="35">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="247,243,161,255"/>
+          <prop k="outline_color" v="247,243,161,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="36">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,207,129,255"/>
+          <prop k="outline_color" v="255,207,129,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="37">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,204,153,255"/>
+          <prop k="outline_color" v="255,204,153,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="38">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,227,137,255"/>
+          <prop k="outline_color" v="255,227,137,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="39">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,219,103,255"/>
+          <prop k="outline_color" v="255,219,103,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="40">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="146,220,183,255"/>
+          <prop k="outline_color" v="146,220,183,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="41">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="217,253,211,255"/>
+          <prop k="outline_color" v="217,253,211,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="42">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="207,239,223,255"/>
+          <prop k="outline_color" v="207,239,223,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="43">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="213,230,204,255"/>
+          <prop k="outline_color" v="213,230,204,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="44">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="192,208,192,255"/>
+          <prop k="outline_color" v="192,208,192,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="45">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="172,228,200,255"/>
+          <prop k="outline_color" v="172,228,200,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="46">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="219,254,188,255"/>
+          <prop k="outline_color" v="219,254,188,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="47">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="187,255,221,255"/>
+          <prop k="outline_color" v="187,255,221,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="48">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="225,240,216,255"/>
+          <prop k="outline_color" v="225,240,216,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="49">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="214,254,154,255"/>
+          <prop k="outline_color" v="214,254,154,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="50">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="149,255,202,255"/>
+          <prop k="outline_color" v="149,255,202,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="51">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="205,255,217,255"/>
+          <prop k="outline_color" v="205,255,217,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="52">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="166,252,170,255"/>
+          <prop k="outline_color" v="166,252,170,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="53">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="203,239,206,255"/>
+          <prop k="outline_color" v="203,239,206,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="54">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="154,206,254,255"/>
+          <prop k="outline_color" v="154,206,254,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="55">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="105,207,156,255"/>
+          <prop k="outline_color" v="105,207,156,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="56">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="189,219,241,255"/>
+          <prop k="outline_color" v="189,219,241,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="57">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="184,234,195,255"/>
+          <prop k="outline_color" v="184,234,195,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="58">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="144,165,101,255"/>
+          <prop k="outline_color" v="144,165,101,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="59">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="183,217,204,255"/>
+          <prop k="outline_color" v="183,217,204,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="60">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="167,186,134,255"/>
+          <prop k="outline_color" v="167,186,134,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="61">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="165,170,173,255"/>
+          <prop k="outline_color" v="165,170,173,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="62">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="141,190,205,255"/>
+          <prop k="outline_color" v="141,190,205,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="63">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="187,192,197,255"/>
+          <prop k="outline_color" v="187,192,197,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="64">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="86,224,252,255"/>
+          <prop k="outline_color" v="86,224,252,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="65">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="67,175,249,255"/>
+          <prop k="outline_color" v="67,175,249,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="66">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="107,195,255,255"/>
+          <prop k="outline_color" v="107,195,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="67">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="56,180,177,255"/>
+          <prop k="outline_color" v="56,180,177,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="68">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="96,204,191,255"/>
+          <prop k="outline_color" v="96,204,191,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="69">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="191,227,220,255"/>
+          <prop k="outline_color" v="191,227,220,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="70">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="205,222,255,255"/>
+          <prop k="outline_color" v="205,222,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="71">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="1,156,205,255"/>
+          <prop k="outline_color" v="1,156,205,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="72">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="154,191,192,255"/>
+          <prop k="outline_color" v="154,191,192,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="73">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="192,174,182,255"/>
+          <prop k="outline_color" v="192,174,182,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="74">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="185,149,152,255"/>
+          <prop k="outline_color" v="185,149,152,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="75">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="217,194,163,255"/>
+          <prop k="outline_color" v="217,194,163,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="76">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="130,0,65,255"/>
+          <prop k="outline_color" v="130,0,65,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="77">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="110,73,9,255"/>
+          <prop k="outline_color" v="110,73,9,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="78">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,183,222,255"/>
+          <prop k="outline_color" v="255,183,222,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="79">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,195,228,255"/>
+          <prop k="outline_color" v="255,195,228,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="80">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,209,234,255"/>
+          <prop k="outline_color" v="255,209,234,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="81">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,195,248,255"/>
+          <prop k="outline_color" v="255,195,248,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="82">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,229,243,255"/>
+          <prop k="outline_color" v="255,229,243,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="83">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,224,222,255"/>
+          <prop k="outline_color" v="255,224,222,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="84">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="249,211,211,255"/>
+          <prop k="outline_color" v="249,211,211,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="85">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,243,201,255"/>
+          <prop k="outline_color" v="255,243,201,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="86">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,239,217,255"/>
+          <prop k="outline_color" v="255,239,217,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="87">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,229,195,255"/>
+          <prop k="outline_color" v="255,229,195,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="88">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,213,157,255"/>
+          <prop k="outline_color" v="255,213,157,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="89">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,162,39,255"/>
+          <prop k="outline_color" v="255,162,39,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="90">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,193,111,255"/>
+          <prop k="outline_color" v="255,193,111,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="91">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="244,139,0,255"/>
+          <prop k="outline_color" v="244,139,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="92">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,220,126,255"/>
+          <prop k="outline_color" v="254,220,126,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="93">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,204,104,255"/>
+          <prop k="outline_color" v="254,204,104,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="94">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,198,42,255"/>
+          <prop k="outline_color" v="254,198,42,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="95">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,205,172,255"/>
+          <prop k="outline_color" v="254,205,172,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="96">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,183,134,255"/>
+          <prop k="outline_color" v="254,183,134,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="97">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,160,96,255"/>
+          <prop k="outline_color" v="254,160,96,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="98">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,135,54,255"/>
+          <prop k="outline_color" v="254,135,54,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="99">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,117,24,255"/>
+          <prop k="outline_color" v="254,117,24,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="100">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="235,96,1,255"/>
+          <prop k="outline_color" v="235,96,1,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="101">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="201,82,1,255"/>
+          <prop k="outline_color" v="201,82,1,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="102">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="177,72,1,255"/>
+          <prop k="outline_color" v="177,72,1,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="103">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="147,60,1,255"/>
+          <prop k="outline_color" v="147,60,1,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="104">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="236,213,198,255"/>
+          <prop k="outline_color" v="236,213,198,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="105">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="221,179,151,255"/>
+          <prop k="outline_color" v="221,179,151,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="106">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="211,157,121,255"/>
+          <prop k="outline_color" v="211,157,121,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="107">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="198,128,80,255"/>
+          <prop k="outline_color" v="198,128,80,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="108">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="169,101,55,255"/>
+          <prop k="outline_color" v="169,101,55,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="109">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="194,65,0,255"/>
+          <prop k="outline_color" v="194,65,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="110">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="95,57,31,255"/>
+          <prop k="outline_color" v="95,57,31,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="111">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="133,79,43,255"/>
+          <prop k="outline_color" v="133,79,43,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="112">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="160,53,0,255"/>
+          <prop k="outline_color" v="160,53,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="113">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="110,37,0,255"/>
+          <prop k="outline_color" v="110,37,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="114">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="252,110,124,255"/>
+          <prop k="outline_color" v="252,110,124,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="115">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,193,183,255"/>
+          <prop k="outline_color" v="255,193,183,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="116">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,225,232,255"/>
+          <prop k="outline_color" v="255,225,232,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="117">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="228,88,145,255"/>
+          <prop k="outline_color" v="228,88,145,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="118">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,239,243,255"/>
+          <prop k="outline_color" v="255,239,243,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="119">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="221,41,114,255"/>
+          <prop k="outline_color" v="221,41,114,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="120">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,209,220,255"/>
+          <prop k="outline_color" v="255,209,220,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="121">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,129,159,255"/>
+          <prop k="outline_color" v="255,129,159,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="122">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,169,157,255"/>
+          <prop k="outline_color" v="255,169,157,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="123">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="232,28,0,255"/>
+          <prop k="outline_color" v="232,28,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="124">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,51,23,255"/>
+          <prop k="outline_color" v="255,51,23,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="125">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="214,0,0,255"/>
+          <prop k="outline_color" v="214,0,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="126">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="249,181,187,255"/>
+          <prop k="outline_color" v="249,181,187,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="127">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="248,190,174,255"/>
+          <prop k="outline_color" v="248,190,174,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="128">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,179,197,255"/>
+          <prop k="outline_color" v="255,179,197,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="129">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,111,107,255"/>
+          <prop k="outline_color" v="255,111,107,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="130">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="252,82,98,255"/>
+          <prop k="outline_color" v="252,82,98,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="131">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="233,121,166,255"/>
+          <prop k="outline_color" v="233,121,166,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="132">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="252,182,182,255"/>
+          <prop k="outline_color" v="252,182,182,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="133">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,167,188,255"/>
+          <prop k="outline_color" v="255,167,188,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="134">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="244,60,108,255"/>
+          <prop k="outline_color" v="244,60,108,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="135">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="251,35,56,255"/>
+          <prop k="outline_color" v="251,35,56,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="136">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="244,26,135,255"/>
+          <prop k="outline_color" v="244,26,135,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="137">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,99,136,255"/>
+          <prop k="outline_color" v="255,99,136,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="138">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,39,90,255"/>
+          <prop k="outline_color" v="255,39,90,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="139">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="172,0,0,255"/>
+          <prop k="outline_color" v="172,0,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="140">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,111,91,255"/>
+          <prop k="outline_color" v="255,111,91,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="141">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="227,119,173,255"/>
+          <prop k="outline_color" v="227,119,173,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="142">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="237,167,202,255"/>
+          <prop k="outline_color" v="237,167,202,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="143">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="233,147,190,255"/>
+          <prop k="outline_color" v="233,147,190,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="144">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,214,209,255"/>
+          <prop k="outline_color" v="255,214,209,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="145">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,191,206,255"/>
+          <prop k="outline_color" v="255,191,206,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="146">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,149,174,255"/>
+          <prop k="outline_color" v="255,149,174,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="147">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,111,145,255"/>
+          <prop k="outline_color" v="255,111,145,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="148">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,27,81,255"/>
+          <prop k="outline_color" v="255,27,81,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="149">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="232,0,55,255"/>
+          <prop k="outline_color" v="232,0,55,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="150">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="206,0,49,255"/>
+          <prop k="outline_color" v="206,0,49,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="151">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="176,0,42,255"/>
+          <prop k="outline_color" v="176,0,42,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="152">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="193,1,10,255"/>
+          <prop k="outline_color" v="193,1,10,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="153">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="148,0,35,255"/>
+          <prop k="outline_color" v="148,0,35,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="154">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="163,1,9,255"/>
+          <prop k="outline_color" v="163,1,9,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="155">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="117,1,7,255"/>
+          <prop k="outline_color" v="117,1,7,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="156">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="167,167,255,255"/>
+          <prop k="outline_color" v="167,167,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="157">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="234,175,255,255"/>
+          <prop k="outline_color" v="234,175,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="158">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="206,157,255,255"/>
+          <prop k="outline_color" v="206,157,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="159">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="164,73,255,255"/>
+          <prop k="outline_color" v="164,73,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="160">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="129,3,255,255"/>
+          <prop k="outline_color" v="129,3,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="161">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="70,0,140,255"/>
+          <prop k="outline_color" v="70,0,140,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="162">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="0,92,0,255"/>
+          <prop k="outline_color" v="0,92,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="163">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="125,255,125,255"/>
+          <prop k="outline_color" v="125,255,125,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="164">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="201,255,201,255"/>
+          <prop k="outline_color" v="201,255,201,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="165">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="230,205,255,255"/>
+          <prop k="outline_color" v="230,205,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="166">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="159,255,159,255"/>
+          <prop k="outline_color" v="159,255,159,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="167">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="233,255,233,255"/>
+          <prop k="outline_color" v="233,255,233,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="168">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="0,0,255,255"/>
+          <prop k="outline_color" v="0,0,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="169">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,87,255,255"/>
+          <prop k="outline_color" v="255,87,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="170">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,141,255,255"/>
+          <prop k="outline_color" v="255,141,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="171">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,167,255,255"/>
+          <prop k="outline_color" v="255,167,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="172">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="254,103,0,255"/>
+          <prop k="outline_color" v="254,103,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="173">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,0,0,255"/>
+          <prop k="outline_color" v="255,0,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="174">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="185,59,104,255"/>
+          <prop k="outline_color" v="185,59,104,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="175">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="135,43,76,255"/>
+          <prop k="outline_color" v="135,43,76,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="176">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="201,85,126,255"/>
+          <prop k="outline_color" v="201,85,126,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="177">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="0,128,0,255"/>
+          <prop k="outline_color" v="0,128,0,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="178">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="180,207,228,255"/>
+          <prop k="outline_color" v="180,207,228,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="179">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="219,219,231,255"/>
+          <prop k="outline_color" v="219,219,231,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="180">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="237,237,243,255"/>
+          <prop k="outline_color" v="237,237,243,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="181">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="192,192,192,255"/>
+          <prop k="outline_color" v="192,192,192,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="182">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="177,177,177,255"/>
+          <prop k="outline_color" v="177,177,177,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="183">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="202,202,220,255"/>
+          <prop k="outline_color" v="202,202,220,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="184">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="162,162,192,255"/>
+          <prop k="outline_color" v="162,162,192,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="185">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="182,182,206,255"/>
+          <prop k="outline_color" v="182,182,206,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="186">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="150,150,150,255"/>
+          <prop k="outline_color" v="150,150,150,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="187">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="163,55,253,255"/>
+          <prop k="outline_color" v="163,55,253,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="188">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="236,214,254,255"/>
+          <prop k="outline_color" v="236,214,254,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="189">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="224,188,254,255"/>
+          <prop k="outline_color" v="224,188,254,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="190">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="213,164,254,255"/>
+          <prop k="outline_color" v="213,164,254,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="191">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="200,134,254,255"/>
+          <prop k="outline_color" v="200,134,254,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="192">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="204,183,255,255"/>
+          <prop k="outline_color" v="204,183,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="193">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="179,149,255,255"/>
+          <prop k="outline_color" v="179,149,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="194">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="144,99,255,255"/>
+          <prop k="outline_color" v="144,99,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="195">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="159,0,202,255"/>
+          <prop k="outline_color" v="159,0,202,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="196">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="123,0,156,255"/>
+          <prop k="outline_color" v="123,0,156,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="197">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="106,0,106,255"/>
+          <prop k="outline_color" v="106,0,106,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="198">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="132,97,62,255"/>
+          <prop k="outline_color" v="132,97,62,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="199">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="208,203,176,255"/>
+          <prop k="outline_color" v="208,203,176,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="200">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="176,167,120,255"/>
+          <prop k="outline_color" v="176,167,120,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="201">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="136,127,80,255"/>
+          <prop k="outline_color" v="136,127,80,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="202">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="172,127,80,255"/>
+          <prop k="outline_color" v="172,127,80,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="203">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="109,80,51,255"/>
+          <prop k="outline_color" v="109,80,51,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="204">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="100,2,11,255"/>
+          <prop k="outline_color" v="100,2,11,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="205">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="136,127,80,255"/>
+          <prop k="outline_color" v="136,127,80,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="206">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="outline_color" v="255,255,255,255"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="207">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="color" v="32,32,192,255"/>
+          <prop k="outline_color" v="32,32,192,255"/>
+        </layer>
+      </symbol>
+    </symbols>
+  </renderer-v2>
+</qgis>
